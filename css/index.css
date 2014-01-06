@@ -1,0 +1,30 @@
+/*
+ *UXStudio custom css
+ *author:zzhang;
+ */
+
+/* overwrite bootstrap css style */
+.container{background-color:#FFFFFF;}
+.navbar-toggle{background-color:#000000;}
+.icon-bar{background:#FFFFFF;}
+/* END overwrite bootstrap css style */
+
+body{background:#c1c1c1;}
+.no-padding{padding:0px;}
+.float-left{float:left;}
+.float-right{float:right;}
+.content-banner{padding-top:60px;background:url('../image/B_bluestrip.gif') no-repeat;background-color:rgb(16,179,240);height:337px;background-position:center;}
+.content-banner .banner-word{margin-top:30px; font-size:38px; color:#FFFFFF; text-align: center;}
+.highlight-column{text-align:center;background:url('../image/D_Diag_Dividers.png');height:250px;}
+.main-content{padding:20px 100px;}
+.content-header{color:rgb(15,180,237);font-size:35px;}
+.content-header2{color:rgb(15,180,237);font-size:24px;}
+.shadow-separator{background:url('../image/D_Diag_Dividers.png');height:15px;}
+.line-separator{border-bottom:1px solid #CACACA;}
+.findoutmore{color:rgb(253,181,110);}
+.findoutmore:hover{color:rgb(253,181,110);}
+.facilitator{height:180px;}
+.thumb-pic{float:left;margin-right:10px;}
+.facilitator-name{color:rgb(15,180,237);font-size:15px;font-weight:bold;}
+.facilitator-intro{line-height: 1.5em;}
+.facilitator-social-tag{margin-top:5px;}
