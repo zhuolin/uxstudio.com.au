@@ -19,12 +19,38 @@ body{background:#c1c1c1;}
 .main-content{padding:20px 100px;}
 .content-header{color:rgb(15,180,237);font-size:35px;}
 .content-header2{color:rgb(15,180,237);font-size:24px;}
-.shadow-separator{background:url('../image/D_Diag_Dividers.png');height:15px;}
+.shadow-separator{background:url('../image/D_Diag_Dividers.png');height:15px;clear:both;}
 .line-separator{border-bottom:1px solid #CACACA;}
 .findoutmore{color:rgb(253,181,110);}
 .findoutmore:hover{color:rgb(253,181,110);}
-.facilitator{height:180px;}
+.facilitator{height:auto;}
+.testimonialword{text-align:center;}
+.testimonialrightquote{float:right;}
 .thumb-pic{float:left;margin-right:10px;}
 .facilitator-name{color:rgb(15,180,237);font-size:15px;font-weight:bold;}
 .facilitator-intro{line-height: 1.5em;}
 .facilitator-social-tag{margin-top:5px;}
+.footer{background-color:rgb(75,75,75);color:#FFFFFF;}
+.footerformtable{margin-top:20px;}
+.footerformlabel{width:75px;}
+.footerformtable tr td{padding-bottom:15px;}
+.footerforminput{border-radius: 2px;padding: 5px;border: 1px;width: 200px;}
+.footerformsubmit{color: #FFFFFF;background-color: rgb(15,180,237);border-radius: 2px;border: 1px;width: 120px;height: 45px;font-size: 21px;}
+
+@media screen and (max-width:640px){
+	.main-content{padding:20px 10px;}
+	.facilitator{margin-top:2px;height:auto;}
+}
+
+@media (min-width: 768px) {
+	.main-content{padding:20px 40px;}
+}
+
+@media (min-width: 992px) {
+  .main-content{padding:20px 60px;}
+  .facilitator{margin-top:10px;height:190px;}
+}
+
+@media (min-width: 1200px) {
+
+}
